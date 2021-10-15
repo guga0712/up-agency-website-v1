@@ -117,9 +117,13 @@ body{
     letter-spacing: 29px;
 }
 
-/* .imgTecladoUp{
-    
-} */
+.imagemTeclado {
+    width: 80vh;
+    height: 55vh;
+    position: absolute;
+    left: 50%;
+    top: 7%;
+}
 
 .botaoVamosJuntosHome{
     font-family: 'Noto Sans Mono', monospace; 
