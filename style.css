@@ -206,11 +206,32 @@ body{
     box-shadow: 3px 3px 10px #2c2c2c;
 }
 
-/* #000000
+.sobreNos{
+    position: relative;
+    text-align: center;
+    font-family: 'Noto Sans Mono', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 247, 247);
+}
+
+.sobreNosP{
+    margin: 0;
+}
+
+.sobreNosH2{
+    margin: 0;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/* 
+#000000
 #EFAF5D
 #A7D0D9
-#3AC7A3
+#3AC7A3 claro
 #FFFFFF 
-#41c7a8
+#41c7a8 escuro
 #8ccbd1
+rgb(247, 247, 247)
 */
