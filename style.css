@@ -295,6 +295,9 @@ body{
     margin: 0;
     padding:0;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .circleTop{
@@ -323,9 +326,6 @@ body{
     width: 75vh;
     height: 42vh;
     border-radius: 20px;
-    transform: translate(-50 -50%);
-    top: 25%;
-    left: 30%;
     backdrop-filter: blur(10px);
     box-shadow: 1px 1px 10px rgb(139, 139, 139);
 }
