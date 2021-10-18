@@ -32,7 +32,7 @@ body{
 }
 
 .header li{
-    padding: 0 50px;
+    padding: 0 30px;
     margin: 0px;
 }
 
@@ -315,13 +315,51 @@ body{
 
 .cardContactUs{
     position: absolute;
-    width: 70vh;
-    height: 40vh;
-    border: 1px solid black;
+    width: 75vh;
+    height: 42vh;
     border-radius: 20px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 10px rgb(139, 139, 139);
+}
+
+.cardColor{
+    position: absolute;
+    width: 75vh;
+    height: 42vh;
+    border-radius: 20px;
+    background-color: rgb(245, 255, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgLogoCard{
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.faleConosco{
+    font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    font-weight: 400;
+    font-size: 1em;
+    color: #2c2c2c;
+}
+
+.dadosCartao{
+    font-family: 'Noto Sans Mono', monospace; 
+    position: absolute;
+    color: #2c2c2c;
+    top: 70%;
+    left: 10%;
 }
 
 
@@ -338,4 +376,5 @@ body{
 #41c7a8 escuro
 #8ccbd1
 rgb(247, 247, 247)
+#2c2c2c
 */
