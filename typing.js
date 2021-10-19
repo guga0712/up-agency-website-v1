@@ -4,7 +4,7 @@ function typeWriteR(element){
     textArray.forEach((letra, i) => {
         setTimeout(function(){
             element.innerHTML += letra
-        }, 75 * i)
+        }, 90 * i)
     })
 }
 
