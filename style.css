@@ -40,12 +40,12 @@ body{
 }
 
 .logo{
-    margin-left: 2em;
-    width: 15em;
-    height: 15em;
+    /* width: 12em;
+    height: 12em; */
+    width: 5em;
     position: absolute;
     top:50%;
-    left: 8%;
+    left: 7%;
     transform: translate(-50%, -50%);
 }
 
@@ -118,6 +118,7 @@ body{
     font-weight: 600;
     margin-left: 5px;
     opacity: 0;
+    color: #3AC7A3;
     animation: pisca .5s infinite;
 }
 
