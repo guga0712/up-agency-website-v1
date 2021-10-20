@@ -140,8 +140,10 @@ body{
 }
 
 .imagemTeclado {
-    width: 75vh;
-    height: 55vh;
+    /* width: 75vh;
+    height: 60vh; */
+    width: 600px;
+    height: 500px;
     position: absolute;
     left: 50%;
     top: 7%;
@@ -320,8 +322,6 @@ footer{
     left: 10%;
     top: 15%;
 }
-
-
 
 
 
