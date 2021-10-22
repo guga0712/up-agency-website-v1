@@ -9,6 +9,32 @@ body{
     background-color: white;
 }
 
+
+.voltarAoTopo{
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    right: 3%;
+    bottom: 3%;
+    background-color: #41c7a8;
+    z-index: 1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.voltarAoTopo i{
+    margin: 0px;
+    color: white;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 47%;
+    left: 50%;
+}
+
 /* =========HEADER========== */
 .header{
     background-color: white;
@@ -143,10 +169,10 @@ body{
     /* width: 75vh;
     height: 60vh; */
     width: 600px;
-    height: 500px;
     position: absolute;
     left: 50%;
-    top: 7%;
+    top: 13%;
+    z-index: -1;
 }
 
 .botaoVamosJuntosHome{
@@ -199,7 +225,36 @@ body{
     transform: translate(-50%, -50%);
     top: 50%;
     left: 77%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 
+.redeImg{
+    width: 20em;
+    height: 20em;
+    animation: rodar 60s infinite;
+
+    top: 50%;
+    left: 50%;
+}
+
+@keyframes rodar {
+    0%{
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    5%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 0;
+    }
 }
 
 .textCardUsH2{
