@@ -289,6 +289,9 @@ body{
 
 /* ****************Services****************** */
 
+.services{
+}
+
 .titleServices{
     font-family: 'Noto Sans Mono', monospace;
     background-color: rgb(247, 247, 247);
@@ -304,12 +307,54 @@ body{
 
 .titleServices p{
     width: 500px;
-    margin-left: auto;
-    margin-right: auto; 
+    margin: 20px auto 0px auto;
     font-size: 20px;
     line-height: 40px;
 }
 
+/* ***************Box services ***************** */
+
+.boxesServices, .boxesServices2{
+    padding: 30px 200px;
+    width: auto;
+    height: auto;
+    background-color: rgb(247, 247, 247);
+    align-items: center; 
+    text-align: center; 
+    position: relative; 
+    display: flex;
+}
+
+.box1{
+    margin: 0 auto 0 auto;
+    align-items: center;
+    width: max-content;
+
+}
+.box1 h3{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+    width: 120px;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.boxService{
+    height: 120px;
+    border-radius: 15px;
+    background-color: #3AC7A3;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 0px;
+}
+
+.boxService img{
+    width: 50px;
+    margin: 0px;
+}
+
+.titleServices2{}
 /* ================ Card ================ */
 
 .contactUs{
