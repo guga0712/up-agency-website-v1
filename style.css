@@ -117,7 +117,7 @@ body{
 .contentHome{
     position: relative;
     width: 100%;
-    height: 80vh;
+    height: 600px;
     margin: 0px;
     /* background-color: white; */
     color: black;
@@ -196,7 +196,7 @@ body{
 
 .home{
     width: auto;
-    height: 80vh;
+    height: 500px;
     background-color: rgb(247, 247, 247);
     margin: 0;
     padding:0;
@@ -234,7 +234,7 @@ body{
 .redeImg{
     width: 20em;
     height: 20em;
-    animation: rodar 60s infinite;
+    animation: rodar 60s linear infinite;
 
     top: 50%;
     left: 50%;
@@ -284,6 +284,33 @@ body{
     transition: 0.5s;
     box-shadow: 3px 3px 10px #2c2c2c;
 }
+
+
+
+/* ****************Services****************** */
+
+.titleServices{
+    font-family: 'Noto Sans Mono', monospace;
+    background-color: rgb(247, 247, 247);
+    align-items: center; 
+    text-align: center; 
+    position: relative;  
+}
+
+.titleServices h1{
+    margin: 0;
+    text-align: center;
+}
+
+.titleServices p{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 20px;
+    line-height: 40px;
+}
+
+/* ================ Card ================ */
 
 .contactUs{
     background-color: white;
