@@ -109,7 +109,7 @@ body{
 
 .botaoVamosJuntos:hover{
     transition: 0.5s;
-    box-shadow: 3px 3px 10px #2c2c2c;
+    background-color: #27977d;
 }
 
 /* ==========HOME============ */
@@ -168,10 +168,10 @@ body{
 .imagemTeclado {
     /* width: 75vh;
     height: 60vh; */
-    width: 600px;
+    width: 500px;
     position: absolute;
-    left: 50%;
-    top: 13%;
+    left: 55%;
+    top: 15%;
     z-index: -1;
 }
 
@@ -189,9 +189,8 @@ body{
 }
 
 .botaoVamosJuntosHome:hover{
-    background-color: #3AC7A3;
+    background-color: #27977d;
     transition: 0.5s;
-    box-shadow: 3px 3px 10px #2c2c2c;
 }
 
 .home{
@@ -280,17 +279,13 @@ body{
 }
 
 .botaoEuQuero:hover{
-    background-color: #3AC7A3;
+    background-color: #27977d;
     transition: 0.5s;
-    box-shadow: 3px 3px 10px #2c2c2c;
 }
 
 
 
 /* ****************Services****************** */
-
-.services{
-}
 
 .titleServices{
     font-family: 'Noto Sans Mono', monospace;
@@ -329,13 +324,15 @@ body{
     margin: 0 auto 0 auto;
     align-items: center;
     width: max-content;
+    
 
 }
 .box1 h3{
     text-align: center;
     font-size: 12px;
+    font-weight: 400;
     margin-top: 10px;
-    width: 120px;
+    width: 125px;
     font-family: 'Noto Sans Mono', monospace;
 }
 
@@ -349,12 +346,52 @@ body{
     margin-right: 0px;
 }
 
+.boxService:hover{
+    height: 120px;
+    background-color: #2eb192;
+    transition: 0.5s;
+    box-shadow: 1px 1px 10px rgb(136, 136, 136);
+}
+
+
 .boxService img{
-    width: 50px;
+    width: 70px;
     margin: 0px;
 }
 
-.titleServices2{}
+/* *******************CASES********************* */
+.cases{
+    background-color: white;
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+}
+
+.casesTitle{
+}
+
+.casesTitle h1{
+    font-family: 'Noto Sans Mono', monospace;
+    text-align: center;
+    margin: 0;
+}
+
+.casesIcons, .casesIcons2 {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+}
+
+.casesIcon{
+    width: 250px;
+    height: 250px;
+}
+
+.foto{
+    width: 250px;
+    height: 250px;
+}
 /* ================ Card ================ */
 
 .contactUs{
